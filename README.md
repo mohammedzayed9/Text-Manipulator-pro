@@ -1,61 +1,76 @@
-#Text Manipulator App
-The Text Manipulator App is a graphical user interface (GUI) application built using PyQt5 library that allows users to manipulate text in various ways. It provides a range of text manipulation options such as converting text to uppercase or lowercase, removing whitespace, sorting lines alphabetically, finding and replacing text, counting words, and much more. The app supports a wide range of text transformations and provides a convenient way to perform them.
+# Text Manipulator App
 
-#Prerequisites
-Python 3.x
-PyQt5 library
-pyperclip library
-Installation
-Install Python 3.x from the official website: Python.org
-Available Manipulations
-#The following manipulations are available in the app:
+## 1. Introduction
 
-Uppercase Transformation
-Lowercase Transformation
-Remove Whitespace
-Capitalize First Letter
-Sort Lines Alphabetically
-Remove Duplicates
-Shuffle Lines Randomly
-Count Words
-Find and Replace Text
-Add Prefix to Lines
-Add Suffix to Lines
-Add Prefix and Suffix to All Lines
-Delimited Column Extractor
-Upper Case Converter
-Lower Case Converter
-Title Case Converter
-Sentence Case Converter
-Pascal Case Converter
-Camel Case Converter
-Remove Empty Lines
-Remove Leading/Trailing Spaces
-Remove Leading Spaces
-Remove Trailing Spaces
-Disemvowel Tool
-Reverse Text Generator
-Number Each Line
-Number Each Line (Zero-based)
-Add Line Breaks
-Word-Wrap
-Remove Line Breaks
-Convert Tabs to Spaces
-Convert Spaces to Tabs
-Concatenate Text
-Remove Smart Quotes
-Count Letters
-Count Rows
-Create/remove line breaks
-Insert Prefix and/or Suffix into each line/item
-Join Text Lines, Side by Side
-Remove Blank Lines
-Remove Duplicate Lines/Items
-Remove Lines/Items Containing...
-Remove Unwanted Line Numbers
-#License
-This project is licensed under the MIT License. 
+The Text Manipulator App is a PyQt5-based desktop application that allows users to manipulate text in various ways. It provides a graphical interface where users can input text, select a manipulation option from a dropdown menu, and view the manipulated text as output. The app also provides a feature to copy the manipulated text to the clipboard.
 
-Feel free to use and modify this code to suit your needs.
-#Author
+## 2. Features
+
+- Input Text: Enter the text you want to manipulate.
+- Manipulation Options: Select the desired text manipulation option from the dropdown menu.
+- Output: View the manipulated text as output.
+- Copy to Clipboard: Click the "Copy" button to copy the manipulated text to the clipboard.
+
+## 3. Getting Started
+
+To run the Text Manipulator App, you need to have Python and the following dependencies installed:
+
+- sys
+- pyperclip
+- PyQt5
+
+You can install the dependencies using pip:
+
+
+## 4. Available Manipulations 
+
+1. Uppercase Transformation
+2. Lowercase Transformation
+3. Remove Whitespace
+4. Capitalize First Letter
+5. Sort Lines Alphabetically
+6. Remove Duplicates
+7. Shuffle Lines Randomly
+8. Count Words
+9. Find and Replace Text
+10. Add Prefix to Lines
+11. Add Suffix to Lines
+12. Add Prefix and Suffix to All Lines
+13. Delimited Column Extractor
+14. Upper Case Converter
+15. Lower Case Converter
+16. Title Case Converter
+17. Sentence Case Converter
+18. Pascal Case Converter
+19. Camel Case Converter
+20. Remove Empty Lines
+21. Remove Leading/Trailing Spaces
+22. Remove Leading Spaces
+23. Remove Trailing Spaces
+24. Disemvowel Tool
+25. Reverse Text Generator
+26. Number Each Line
+27. Number Each Line (Zero-based)
+28. Add Line Breaks
+29. Word-Wrap
+30. Remove Line Breaks
+31. Convert Tabs to Spaces
+32. Convert Spaces to Tabs
+33. Concatenate Text
+34. Remove Smart Quotes
+35. Count Letters
+36. Count Rows
+37. Create/remove line breaks
+38. Insert Prefix and/or Suffix into each line/item
+39. Join Text Lines, Side by Side
+40. Remove Blank Lines
+41. Remove Duplicate Lines/Items
+42. Remove Lines/Items Containing...
+43. Remove Unwanted Line Numbers
+
+## 4. Author 
+
 Mohammed Zayed
+
+
+
